@@ -7,7 +7,7 @@ Esa “n” que indica la cantidad de números a calcular es el parámetro de la
 var n = 300;
 var x = 2;
 var primos = [];
-//for para añadir numeros primos al array primos
+//for para añadir numeros primos al array primos mediante la funcion "primo"
 for(x;x<n; x++){
 
   if(primo(x)){
@@ -26,3 +26,8 @@ function primo(numero) {
   };
   return numero !==1;
 }
+
+/*En base al concepto de los numeros primos; diseñe una funcion que discriminara entre numeros primos y no primos.
+
+Llame a la funcion con un For con el cual me iria añadiendo numeros primos devueltos por la funcion a un array llamados primos.
+finalmente mediante console.log(primos), represente el array en la consola.*/
